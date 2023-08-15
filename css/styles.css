@@ -1,17 +1,16 @@
 /*Initial Config*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&family=Roboto:wght@300;400;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 
 :root {
   --padding-container: 4rem 0;
-  --font-body: "Open Sans", sans-serif;
-  --font-headings: "Poppins", sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --font-headings: 'Poppins', sans-serif;
   --pink: hsl(322, 100%, 66%);
   --light-pink: hsl(321, 100%, 78%);
   --light-red: hsl(0, 100%, 63%);
@@ -253,11 +252,11 @@ body {
 }
 
 .footer_contact::after {
-  content: "Phone: +1-543-123-4567";
+  content: 'Phone: +1-543-123-4567';
 }
 
 .footer_contact--email::after {
-  content: "example@huddle.com";
+  content: 'example@huddle.com';
 }
 
 .footer_social {
